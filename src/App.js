@@ -15,14 +15,11 @@ useEffect(() => {
 // State variables to hold user input
 const [newItemName, setNewItemName] = useState('');
 const [newItemDescription, setNewItemDescription] = useState('');
-const [newItemStatus,setNewItemStatus] = useState('');
 const [Completed] = useState('completed');
 const [NotCompleted] = useState('not completed');
 
 
-   // State variables to hold user input for editing
-   const [editItemId, setEditItemId] = useState(0);
-   const [editedItemStatus, seteditedItemStatus] = useState('');
+ 
 
 // Function to handle form submission and add user-entered data to the array
 const handleFormSubmit = (event) => {
